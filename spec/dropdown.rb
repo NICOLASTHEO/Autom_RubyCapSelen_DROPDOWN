@@ -1,4 +1,4 @@
-describe 'Caixa de Seleção', :dropdown do
+describe 'Caixa de Opções', :dropdown do
     it 'seleção de item simples' do
         visit 'https://training-wheels-protocol.herokuapp.com/dropdown'
         select('Bucky', from: 'dropdown')
@@ -14,8 +14,7 @@ describe 'Caixa de Seleção', :dropdown do
         visit 'https://training-wheels-protocol.herokuapp.com/dropdown'
         drop=find('.avenger-list')
         drop.all('option').sample.select_option
-        sleep 1
     end
 end
 
-#cmd to runrspec spec/dropdown.rb --tag @dropdown
+#cmd to run: rspec spec/dropdown.rb --tag @dropdown
