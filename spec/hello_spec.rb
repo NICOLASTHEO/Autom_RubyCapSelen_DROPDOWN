@@ -1,11 +1,6 @@
-
-describe "Writing some script" do
-    it ' visit page' do
-        puts 'go to page'
-        visit 'https://training-wheels-protocol.herokuapp.com/'
-        puts page.title
-        expect(page.title).to eq 'Training Wheels Protocol'
-        sleep 1 #temporário, sempre tirar!
+describe 'meu primeiro script', :title do
+    it 'visitar a página' do
+        visit 'https://training-wheels-protocol.herokuapp.com/' 
+        expect(page.title).to eql 'Training Wheels Protocol'
     end
-
-end
+end 

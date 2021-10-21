@@ -18,7 +18,7 @@ GEM
     nokogiri (1.12.5-x64-mingw32)
       racc (~> 1.4)
     public_suffix (4.0.6)
-    racc (1.5.2)
+    racc (1.6.0)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -38,7 +38,7 @@ GEM
       rspec-support (~> 3.10.0)
     rspec-support (3.10.2)
     rubyzip (2.3.2)
-    selenium-webdriver (4.0.0)
+    selenium-webdriver (4.0.2)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
@@ -52,7 +52,7 @@ DEPENDENCIES
   capybara (= 3.35.3)
   ffi (= 1.15.4)
   rspec (= 3.10.0)
-  selenium-webdriver (= 4.0.0)
+  selenium-webdriver (= 4.0.2)
 
 BUNDLED WITH
    2.2.28
